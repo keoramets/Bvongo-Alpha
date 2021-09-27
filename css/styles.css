@@ -12,3 +12,8 @@
 .main-headline-card{
     height: 100%;
 }
+
+.carousel-caption-home{
+    background-color: rgba(128, 128, 128,.7);
+
+}
