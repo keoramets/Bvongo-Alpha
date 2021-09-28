@@ -14,6 +14,49 @@
 }
 
 .carousel-caption-home{
-    background-color: rgba(128, 128, 128,.7);
+    background-color: rgba(17, 17, 17, 0.5);
 
+}
+
+@media (max-width: 910px) {
+    .headline-heading{
+        font-size: 28px;
+    }
+
+    .headline-paragraph{
+        font-size: 16px;
+    }
+
+    .carousel-caption .btn{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    .headline-heading{
+        font-size: 22px;
+    }
+
+    .headline-paragraph{
+        font-size: 14px;
+    }
+
+    .carousel-caption .btn{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 360px) {
+    .headline-heading{
+        font-size: 16px;
+    }
+
+    .headline-paragraph{
+        font-size: 0;
+    }
+
+    .carousel-caption .btn{
+        font-size: 10px;
+        padding: 2.5px 5px;
+    }
 }
